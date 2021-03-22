@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'L ́ILE-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+      56: '0xb286efbcdd7536c76820a5b3a9ab96cf3f7f8175',
     },
     tokenSymbol: 'LILE',
     tokenAddresses: {
       97: '',
-      56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+      56: '0x6845f66665e319a7f00a536a15930af90aab2466',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -189,12 +189,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'L ́ILE',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // LILE-BUSD LP
+      56: '0xb286efbcdd7536c76820a5b3a9ab96cf3f7f8175', // LILE-BUSD LP
     },
     tokenSymbol: 'LILE',
     tokenAddresses: {
       97: '',
-      56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+      56: '0x6845f66665e319a7f00a536a15930af90aab2466',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -206,7 +206,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // LILE-BUSD LP (BUSD-BUSD will ignore)
+      56: '0xb286efbcdd7536c76820a5b3a9ab96cf3f7f8175', // LILE-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
