@@ -50,14 +50,14 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
+        label: 'Lile Farm',
+        href: 'https://medium.com/@the_island/nfts-on-the-moon-on-an-island-in-the-sky-and-beyond-d854fd61d704',
+      },
+      {
+        label: 'Road Map',
+        href: 'https://medium.com/@the_island/l-ile-roadmap-963e411ddc3b',
       },
       /*
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/LILE-finance',
-      },
       {
         label: 'CoinMarketCap',
         href: 'https://coinmarketcap.com/currencies/LILE-finance/',

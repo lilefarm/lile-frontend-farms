@@ -15,7 +15,7 @@ const StyledTotalValueLockedCard = styled(Card)`
 const TotalValueLockedCard = () => {
   const TranslateString = useI18n()
   // const data = useGetStats()
-  const totalValue = useTotalValue();
+  const totalValue = useTotalValue()
   // const tvl = totalValue.toFixed(2);
 
   return (
@@ -27,10 +27,15 @@ const TotalValueLockedCard = () => {
         <>
           {/* <Heading size="xl">{`$${tvl}`}</Heading> */}
           {/* <Heading size="xl"> */}
-            <CardValue value={totalValue.toNumber()} prefix="$" decimals={2}/>
+          <CardValue value={totalValue.toNumber()} prefix="$" decimals={2} />
           {/* </Heading> */}
           <Text color="textSubtle">{TranslateString(999, 'Across all Farms and Pools')}</Text>
-          <Text fontSize="14px">{TranslateString(999, 'Some farms have deposit fee ́s to be used buyback of Lile. 1% of all farmed tokens arranged for the safety and development of the ecosystem.')}</Text>
+          <Text fontSize="14px">
+            {TranslateString(
+              999,
+              'Some farms have deposit fee ́s to be used buyback of Lile. 1% of all farmed tokens arranged for the safety and development of the ecosystem.',
+            )}
+          </Text>
         </>
       </CardBody>
     </StyledTotalValueLockedCard>
