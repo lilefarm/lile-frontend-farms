@@ -50,11 +50,11 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'Lile Farm',
+        label: `L'ile`,
         href: 'https://medium.com/@the_island/nfts-on-the-moon-on-an-island-in-the-sky-and-beyond-d854fd61d704',
       },
       {
-        label: 'Road Map',
+        label: 'Roadmap',
         href: 'https://medium.com/@the_island/l-ile-roadmap-963e411ddc3b',
       },
       /*
