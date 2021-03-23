@@ -19,12 +19,12 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 7,
+    pid: 8,
     risk: 5,
     lpSymbol: 'L ́ILE-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xaac6ca3a144D53Fb6215D97f84ca2B4Ff27055d8',
+      56: '0x793d093FbE43C77253f204e7412d00448Fd9d3A1',
     },
     tokenSymbol: 'LILE',
     tokenAddresses: {
